@@ -1,0 +1,66 @@
+body {
+  background-color: #deb887;
+}
+h1 {
+  text-align: center;
+  background-color: orange;
+  padding: 6px;
+  color: white;
+}
+
+.main {
+  height: 525px;
+  width: 525px;
+  background-image: url("http://1.bp.blogspot.com/_UVqusWXd9Wk/S7NYgnLVzjI/AAAAAAAAKQw/T8dpgdPb-po/s320/snake+and+ladder+game.bmp");
+  background-size: 525px 525px;
+  background-repeat: no-repeat;
+  float: left;
+  border: 3px solid #a52a2a;
+}
+
+.superimposed {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 90px;
+  left: 20px;
+}
+
+#side {
+  height: 500px;
+  width: 200px;
+  margin-left: 500px;
+}
+
+.btn {
+  height: 40px;
+  width: 100px;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.boardbox {
+  height: 50px;
+  width: 50px;
+  z-index: -1;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.img {
+  height: 45px;
+  width: 50px;
+  margin: 2px 0px 3px 0px;
+}
+#dice {
+  height: 80px;
+  width: 80px;
+  font-size: 70px;
+  color: black;
+  margin: auto;
+  border: none;
+  background-color: white;
+}
